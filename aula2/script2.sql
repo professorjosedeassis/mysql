@@ -14,9 +14,8 @@ show tables;
 	O bloco de código abaixo cria uma tabela
     int (tipo de dados: numérico inteiro)
     primary key (transforma o campo em chave primária)
-    varchar(valor) (tipo de dados que aceita uma string de caracteres / (valor)Máximo de caracteres permitidos
+    varchar(valor) (tipo de dados que aceita uma string de caracteres de tamanho variável / (valor)Máximo de caracteres permitidos
     not null (torna obrigatório o preenchimento do campo)
-    ATENÇÃO! Para excluir uma tabela use o comando 'drop table' seguido do nome da tabela
 */
 
 create table tbcontatos(
@@ -30,6 +29,37 @@ show tables;
 
 -- O comando abaixo descreve a tabela
 describe tbcontatos;
+
+-- O comando abaixo altera o nome de um campo da tabela
+alter table tbcontatos change nome contato varchar(50) not null;
+describe tbcontatos;
+
+-- O comando abaixo adiciona um novo campo a tabela
+alter table tbcontatos add column obs varchar(200);
+describe tbcontatos;
+
+-- O comando abaixo adiciona um novo campo a tabela em um lugar específico
+alter table tbcontatos add column fone2 varchar(15) after fone;
+describe tbcontatos;
+
+-- O comando abaixo altera o tipo de dados ou parâmetros de um campo específico
+alter table tbcontatos modify column fone2 varchar(20);
+describe tbcontatos;
+
+-- O comando abaixo exclui um campo da tabela
+alter table tbcontatos drop column obs;
+describe tbcontatos;
+
+-- O comando abaixo excui uma tabela
+drop table tbcontatos;
+show tables;
+
+create table tbcontatos(
+	id int primary key,
+	nome varchar(50) not null,
+	fone varchar(15) not null,
+	email varchar(50)
+);
 
 /*************************************************************************/
 /********************************* CRUD **********************************/
