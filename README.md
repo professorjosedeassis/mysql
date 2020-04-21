@@ -6,7 +6,7 @@
 ## Fundamentos do banco de dados MySQL
 Olá Turminha!
 
-Este repositório ensina de forma prática como instalar, configurar e administrar o banco de dados MySQL da Oracle em um servidor Linux (distribuição Debian). Este repositório também ensina os fundamentos da linguagem SQL.
+Este repositório ensina de forma prática como instalar, configurar e administrar o banco de dados MySQL da Oracle em um servidor Linux (distribuição Debian). Este repositório também ensina os fundamentos da modelagem lógica de dados e da linguagem SQL.
 
 Vamos lá!
 
