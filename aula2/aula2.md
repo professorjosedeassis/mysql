@@ -45,12 +45,12 @@ __CRUD__ (do inglês: Create Read Update Delete) são as quatro operações bás
 * READ (pesquisa dos dados na(s) tabela(s))
 * UPDATE (alteração de algum registro da tabela)
 * DELETE (exclusão de um registro da tabela)
-## Atividade 1 - Criar uma tabela de contatos
-Usando como base de estudos o '_script2.sql_' e o modelo de dados usado como exemplo nesta aula, crie no banco de dados '_agenda_' a tabela de contatos.
-## Atividade 2 - infoX
+## Atividade 1 - infoX
 Execute os passos 1 e 2 do projeto infox.
 
 [infox](https://github.com/professorjosedeassis/mysql/blob/master/infox/projeto.md)
+## Atividade 2 - Criar uma tabela de contatos
+Usando como base de estudos o '_script2.sql_' e o modelo de dados usado como exemplo nesta aula, crie no banco de dados '_agenda_' a tabela de contatos.
 ## Atividade 3 - CRUD
 Usando como base de estudos o '_script2.sql_', pratique o 'CRUD' inserindo, pesquisando, alterando e apagando contatos da agenda.
 ## Atividade 4 - Documentação
