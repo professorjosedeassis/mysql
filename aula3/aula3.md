@@ -12,17 +12,17 @@ Um relacionamento é denominado "um para um" quando um registro de uma tabela po
 ### Um para muitos (1 : N)
 Um relacionamento é denominado "um para muitos" quando um registro de uma tabela está relacionado a vários registros da outra tabela. No exemplo abaixo um cliente pode gerar várias OS(ordem de serviço) porém uma OS só pode estar vinculada a um único cliente. 
 
-![1:N](https://github.com/professorjosedeassis/mysql/blob/master/imagens/um%20para%20muitos.png)
+![1:N](https://github.com/professorjosedeassis/mysql/blob/master/imagens/infox%201N.png)
 
 ### Muitos para muitos (N : N)
 Um relacionamento é denominado "muitos para muitos" quando vários registros em uma tabela são associados a vários registros em outra tabela.
 No exemplo abaixo um aluno pode se matricular em vários cursos e um curso pode ser assistido por vários alunos.
 
-![N:N](https://github.com/professorjosedeassis/mysql/blob/master/imagens/muitos%20para%20muitos%20v2.png)
+![N:N](https://github.com/professorjosedeassis/mysql/blob/master/imagens/aulaead%20NN%201%20forma.png)
 
 Para desenvolver este tipo de relacionamento (N : N) no banco de dados devemos criar uma terceira tabela associativa, conforme imagem abaixo:
 
-![N:N](https://github.com/professorjosedeassis/mysql/blob/master/imagens/muitos%20para%20muitos%20associado%20v2.png)
+![N:N](https://github.com/professorjosedeassis/mysql/blob/master/imagens/aulaead%20NN%202%20forma.png)
 
 ___
 ## Atividade 1 - infoX
@@ -32,7 +32,7 @@ Execute os passos 3 e 4 do projeto infox.
 ## Atividade 2 - Lojinha
 Usando como base de estudos o 'script3.sql', desenvolva o projeto de um banco de dados de uma loja, conforme modelo abaixo.
 
-![N:N](https://github.com/professorjosedeassis/mysql/blob/master/imagens/muitos%20para%20muitos%20loja.png)
+![N:N](https://github.com/professorjosedeassis/mysql/blob/master/imagens/lojinha.png)
 
 Efetue alguns pedidos e gere um relatório de vendas descrevendo:
 * Número do pedido
