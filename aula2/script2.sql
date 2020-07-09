@@ -1,7 +1,7 @@
 /* 
 	SQL - Aula 2
 	Introdução ao SQL (CRUD)
-    Agenda de contatos
+    	Agenda de contatos
 	@author Professor José de Assis
 */
 
@@ -11,7 +11,7 @@ use agenda;
 show tables;
 
 /*
-	O bloco de código abaixo cria uma tabela
+	O bloco de códigos abaixo cria uma tabela
     int (tipo de dados: numérico inteiro)
     primary key (transforma o campo em chave primária)
     varchar(valor) (tipo de dados que aceita uma string de caracteres de tamanho variável / (valor)Máximo de caracteres permitidos
@@ -50,7 +50,7 @@ describe tbcontatos;
 alter table tbcontatos drop column obs;
 describe tbcontatos;
 
--- O comando abaixo excui uma tabela
+-- O comando abaixo exclui uma tabela
 drop table tbcontatos;
 show tables;
 
