@@ -15,4 +15,4 @@ Instalação do MySQL no Linux com perfil de servidor WEB dinâmico (ideal para 
 
 [![Linux Database Server](http://img.youtube.com/vi/nuRy0omG06o/0.jpg)](http://www.youtube.com/watch?v=nuRy0omG06o "Assistir")
 ## Atividade 2 - Criar um novo banco de dados
-Analise o '_script1.sql_' desta aula e usando o Workbench crie um novo banco de dados de nome dbagenda.
+Analise o '_script1.sql_' desta aula e use a ferramenta Workbench para criar um banco de dados de nome dbagenda.
