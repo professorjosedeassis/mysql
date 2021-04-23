@@ -26,7 +26,7 @@ Representamos o atributo chave com a "bolinha cheia" e os demais atributos com a
 
 ![atributo](https://github.com/professorjosedeassis/mysql/blob/master/imagens/atributo.png)
 
-### Projeto: Modelagem de uma agenda de contatos
+### Projeto: Agenda de contatos
 A imagem abaixo ilustra o modelo de dados de uma simples agenda de contatos:
 
 ![modelo](https://github.com/professorjosedeassis/mysql/blob/master/imagens/modelo.png)
