@@ -1,7 +1,7 @@
 # Introdução
 [![Introdução ao banco de dados](https://github.com/professorjosedeassis/mysql/blob/master/imagens/intro_banco.png)](https://www.slideshare.net/josedeassisfilho/banco-de-dados-231067009 "Apresentação")
 ## Atividade 1 - Instalação do MySQL
-O principal objetivo é criar um servidor de banco de dados e usar o workbench como ferramenta de administração e desenvolvimento.
+O principal objetivo é criar um servidor de banco de dados e usar o Workbench como ferramenta de administração e desenvolvimento.
 ### Opção 1
 Instalação do MySQL no Windows (ambiente de desenvolvimento)
 
@@ -11,8 +11,8 @@ Instalação do MySQL no Linux com perfil de servidor dedicado a uma rede local 
 
 [![Linux Database Server](http://img.youtube.com/vi/E6Hf5rQajtw/0.jpg)](http://www.youtube.com/watch?v=E6Hf5rQajtw "Assistir")
 ### Opção 3
-Instalação do MySQL no Linux com perfil de servidor WEB dinâmico (ideal para o desenvolvimento back-end com a linguagem Java).
+Instalação do MySQL no Linux com perfil de servidor WEB dinâmico (ideal para o desenvolvimento de um sistema WEB com a linguagem Java).
 
 [![Linux Database Server](http://img.youtube.com/vi/nuRy0omG06o/0.jpg)](http://www.youtube.com/watch?v=nuRy0omG06o "Assistir")
-## Atividade 2 - Criar um novo banco de dados
+## Atividade 2 - Criar um banco de dados
 Analise o '_script1.sql_' desta aula e use a ferramenta Workbench para criar um banco de dados de nome dbagenda.
