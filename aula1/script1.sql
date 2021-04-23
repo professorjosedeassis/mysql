@@ -1,15 +1,14 @@
-/* 
-	SQL - Aula 1
-    @author Professor José de Assis
-*/
+/*
+ * Banco de dados
+ * @author Professor José de Assis
+ */
 
--- O comando abaixo lista os bancos "<ctrl><enter> para executar"
+-- Listar os bancos disponíveis no servidor
 show databases;
-
--- O comando abaixo cria um novo banco de dados (Para excluir um banco da de dados use o comando drop database seguido do nome do banco)
-create database agenda;
-show databases;
-
--- O comando abaixo seleciona o banco de dados
-use agenda;
+-- Criar um banco de dados
+create database dbagenda;
+-- Excluir um banco de dados
+drop database dbagenda;
+-- Selecionar o banco de dados
+use dbagenda;
     
