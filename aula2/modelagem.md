@@ -1,6 +1,6 @@
-# Introdução ao SQL (CRUD)
+# Modelagem de dados
 ## Modelo de dados
-O banco de dados MySQL usa o modelo relacional e a linguagem SQL. Modelo de dados é uma representação abstrata e simplificada de um sistema real. No modelo de dados podemos conhecer e testar o sistema antes da construção.
+Modelo de dados é uma representação abstrata e simplificada de um sistema real. No modelo de dados podemos conhecer e testar o sistema antes da construção. O banco de dados MySQL usa o modelo relacional onde o conceito principal vem da teoria dos conjuntos.
 ### Entidade
 Pode ser definida como um conjunto de informações sobre determinado componente do sistema, na qual se deseja guardar informações (Tabela).
 
@@ -26,38 +26,25 @@ Representamos o atributo chave com a "bolinha cheia" e os demais atributos com a
 
 ![atributo](https://github.com/professorjosedeassis/mysql/blob/master/imagens/atributo.png)
 
-### Exemplo: Modelagem de uma agenda de contatos
+### Projeto: Modelagem de uma agenda de contatos
 A imagem abaixo ilustra o modelo de dados de uma simples agenda de contatos:
 
 ![modelo](https://github.com/professorjosedeassis/mysql/blob/master/imagens/modelo.png)
 
 ### Dicionarização:
 É a descrição de cada objeto do modelo de dados:
-* __tbcontatos:__ Entidade(tabela) onde serão registrados os contatos (pessoas)
-* __id:__ Número que identifica cada contato de forma única
+* __contatos:__ Entidade(tabela) onde serão registrados os contatos (pessoas)
+* __idcon:__ Número que identifica cada contato de forma única
 * __nome:__ Nome do contato
 * __fone:__ Telefone do contato
 * __email:__ E-mail do contato
 
-## CRUD
-__CRUD__ (do inglês: Create Read Update Delete) são as quatro operações básicas que podem ser realizadas em banco de dados que usam o modelo relacional.
-* CREATE (inserção do registro(dados) na tabela_
-* READ (pesquisa dos dados na(s) tabela(s))
-* UPDATE (alteração de algum registro da tabela)
-* DELETE (exclusão de um registro da tabela)
-## Atividade 1 - infoX
-Execute os passos 1 e 2 do projeto infox.
+## Atividade 1 - Criar a tabela de contatos
+Usando o modelo da agenda de contatos, analise o '_script2.sql_' desta aula e use o Workbench para criar uma nova tabela de nome contatos.
 
-[infox](https://github.com/professorjosedeassis/mysql/blob/master/infox/projeto.md)
-## Atividade 2 - Criar uma tabela de contatos
-Usando como base de estudos o '_script2.sql_' e o modelo de dados usado como exemplo nesta aula, crie no banco de dados '_agenda_' a tabela de contatos.
-## Atividade 3 - CRUD
-Usando como base de estudos o '_script2.sql_', pratique o 'CRUD' inserindo, pesquisando, alterando e apagando contatos da agenda.
-## Atividade 4 - Documentação
-Usando o workbench crie o diagrama ER desta agenda de contatos conforme indicado nas ilustrações abaixo.
+## Atividade 2 - Diagrama
+Usando a engenharia reversa do Workbench crie o diagrama ER desta agenda de contatos conforme indicado nas ilustrações abaixo.
 
-![diagrama](https://github.com/professorjosedeassis/mysql/blob/master/imagens/modeloer.jpg)
+![diagrama](https://github.com/professorjosedeassis/mysql/blob/master/imagens/diagramaer.png)
 ---
-![diagrama](https://github.com/professorjosedeassis/mysql/blob/master/imagens/modeloer3.jpg)
----
-![diagrama](https://github.com/professorjosedeassis/mysql/blob/master/imagens/modeloer4.jpg)
+![diagrama](https://github.com/professorjosedeassis/mysql/blob/master/imagens/diagramaagenda.png)

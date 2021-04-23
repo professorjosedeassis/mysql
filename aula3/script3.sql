@@ -1,128 +1,68 @@
-/* 
-	SQL - Aula 3
-	Relacionamento de tabelas
-    Exemplo prático N:N
-	@author Professor José de Assis
-*/
+/**
+ * Fundamentos do banco de dados MySQL - Aula 3
+ * Projeto: Agenda de Contatos
+ * @author Professor José de Assis
+ */
 
-create database aulaead;
-use aulaead;
+use dbagenda;
 
-/* 
-	Trabalhando com os tipos date, datetime e timestamp
-	date (YYYYMMDD)
-	datetime (YYYYMMDDhhmmss)
-	timestamp default current_timestamp -- insere automaticamente data e hora --
-	now() -- função usada para inserir data e hora atual --
-*/
-
-create table tbalunos(
-	idaluno int primary key auto_increment,
-    nome varchar(50) not null,
-    fone varchar(15) not null,
-    nascimento date not null    
+create table contatos(
+  idcon int primary key auto_increment,
+  nome varchar(50) not null,
+  fone varchar(15) not null,
+  email varchar(50)
 );
 
-describe tbalunos;
+/* CRUD (CREATE READ UPDATE DELETE) */
 
-insert into tbalunos(nome,fone,nascimento)
-values('Victor Assis','99999-1234',20030415);
+/* CRUD CREATE */
 
-insert into tbalunos(nome,fone,nascimento)
-values('Sandra Moraes','99999-4321',19760522);
+-- inserindo registros (dados) na tabela
+insert into contatos(nome,fone,email)
+values('José de Assis','99999-1234','ze@email.com');
 
-insert into tbalunos(nome,fone,nascimento)
-values('Pedro Henrique','99999-9999',now());
+insert into contatos(nome,fone,email)
+values('Bill Gates','88888-1234','bill@email.com');
 
-select * from tbalunos;
+insert into contatos(nome,fone,email)
+values('Linus','99999-4321','tux@email.com');
 
-/*
-	Para formatar uma data usamos: date_format(campo,formato)
-	Formato: '%d/%m/%y' --dia, mês e ano com 2 dígitos
-    Formato: '%d/%m/%Y' --dia, mês e ano com 4 dígitos
-*/
+insert into contatos(nome,fone,email)
+values('Bruna Marquezine','3333-3333','bruna@email.com');
 
-select nome,fone,date_format(nascimento,'%d/%m/%Y') from tbalunos;
+insert into contatos(nome,fone)
+values('Bruce Dickinson','6666-6666');
 
-/*
-	Tipos numéricos:
-	int  [aceita valores do tipo inteiro de -2147483648 a 2147483647]
-    decimal(digitos,formatação)  [valores numéricos não inteiros] 
-    decimal(10,2)  [aceita números de até 10 dígitos com 2 casas decimais]
-    Observação: O insert do tipo decimal deve ser com ponto (.)
-*/
+insert into contatos(nome,fone,email)
+values('Tony Stark','5555-5555','ironman@email.com');
 
-create table tbcursos(
-	idcurso int primary key auto_increment,
-    curso varchar(50) not null,
-    horas int not null,
-    valor decimal(10,2)
-);
+/* CRUD READ */
 
-describe tbcursos;
+-- selecionando todos os registros da tabela
+select * from contatos;
 
-insert into tbcursos(curso,horas,valor)
-values('Java',80,350);
+-- selecionando registros de acordo com um critério
+select * from contatos where idcon = 1;
+select * from contatos where nome = 'Bill Gates';
+select * from contatos where nome like 'B%';
 
-insert into tbcursos(curso,horas,valor)
-values('Linux',40,95.5);
+-- selecionar por ordem alfabética (asc ou desc)
+select * from contatos order by nome asc;
 
-insert into tbcursos(curso,horas)
-values('HTML5',20);
+-- selecionar campos específicos da tabela
+select nome,fone from contatos;
 
-insert into tbcursos(curso,horas,valor)
-values('Python',40,120);
+-- criando 'apelidos' para os campos da tabela
+select nome as Contato, fone as Telefone, email as E-mail from contatos;
 
-select * from tbcursos;
+/* CRUD UPDATE */
 
-/* Criando uma tabela de associação entre alunos e cursos (N:N) */
-create table tbmatriculas(
-	idmatricula int primary key auto_increment,
-    datamat timestamp default current_timestamp,
-    idaluno int not null,
-    idcurso int not null,
-    foreign key(idaluno) references tbalunos(idaluno),
-    foreign key(idcurso) references tbcursos(idcurso)
-);
+-- alterando registros (dados) na tabela
+update contatos set nome='Willian Gates' where idcon = 2;
+update contatos set email='maidem@email.com' where idcon = 5;
+update contatos set nome='Linus Torvalds',fone='99999-7777',email='linus@email.com' where idcon = 3;
 
-describe tbmatriculas;
+/* CRUD DELETE */
 
-/* gerar também o modelo ER para visualizar o relacionamento */
-
-/* Efetuando matrículas */
-
-insert into tbmatriculas(idaluno,idcurso) values (1,1);
-insert into tbmatriculas(idaluno,idcurso) values (1,2);
-insert into tbmatriculas(idaluno,idcurso) values (2,3);
-insert into tbmatriculas(idaluno,idcurso) values (2,4);
-insert into tbmatriculas(idaluno,idcurso) values (3,1);
-insert into tbmatriculas(idaluno,idcurso) values (3,2);
-insert into tbmatriculas(idaluno,idcurso) values (3,3);
-insert into tbmatriculas(idaluno,idcurso) values (3,4);
-
-select * from tbmatriculas;
-
-/* Criando relatórios personalizados */
-
--- Unindo todos os dados das tabelas
-select * from tbmatriculas
-inner join tbalunos
-on tbmatriculas.idaluno = tbalunos.idaluno
-inner join tbcursos
-on tbmatriculas.idcurso = tbcursos.idcurso;
-
--- Selecionando determinados campos das tabelas
--- M,A,C são apelidos usados para simplificar o comando
-
-select
-M.idmatricula as Matrícula,
-A.nome as aluno,
-C.curso,valor
-from tbmatriculas as M
-inner join tbalunos as A
-on (M.idaluno = A.idaluno)
-inner join tbcursos as C
-on (M.idcurso = C.idcurso);
-
--- Somando o total de venda dos cursos
-select sum(valor) as Total from tbcursos;
+-- removendo um registro da tabela
+delete from contatos where idcon = 6;
