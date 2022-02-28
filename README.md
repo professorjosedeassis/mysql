@@ -16,6 +16,15 @@ Professor José de Assis
 * Projeto: Sistema para controle de ordem de serviços 
 * projeto: Sistema para gerenciamento de cursos online
 * projeto: E-commerce
+
+### Aula 1
+[assistir](https://github.com/professorjosedeassis/mysql/tree/master/aula1)
+### Aula 2
+[assistir](https://github.com/professorjosedeassis/mysql/tree/master/aula2)
+### Aula 3
+[assistir](https://github.com/professorjosedeassis/mysql/tree/master/aula3)
+### Aula 4
+[assistir](https://github.com/professorjosedeassis/mysql/tree/master/aula4)
 ## Como apoiar os cursos gratuitos e projetos?
 Você pode:
 - Inscrever-se no canal do YouTube - [INSCREVA-SE!](https://www.youtube.com/c/RoboticapraticaBr/?sub_confirmation=1)
