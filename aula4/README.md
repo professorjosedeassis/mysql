@@ -28,7 +28,7 @@ ___
 ## Atividade 1 - infoX
 Execute os passos 3 e 4 do projeto infox.
 
-[infox](https://github.com/professorjosedeassis/mysql/blob/master/infox/projeto.md)
+[infox](https://github.com/professorjosedeassis/mysql/blob/master/infox/README.md)
 ## Atividade 2 - Lojinha
 Usando como base de estudos o 'script3.sql', desenvolva o projeto de um banco de dados de uma loja, conforme modelo abaixo.
 
