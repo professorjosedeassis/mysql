@@ -11,4 +11,4 @@ Usando como base de estudos o '_script3.sql_' desta aula, pratique o 'CRUD' inse
 ## Atividade 2 - infoX
 Execute os passos 1 e 2 do projeto infox.
 
-[infox](https://github.com/professorjosedeassis/mysql/blob/master/infox/projeto.md)
+[infox](https://github.com/professorjosedeassis/mysql/blob/master/infox/README.md)
