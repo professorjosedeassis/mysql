@@ -9,6 +9,6 @@ __CRUD__ (do inglês: Create Read Update Delete) são as quatro operações bás
 Usando como base de estudos o '_script3.sql_' desta aula, pratique o 'CRUD' inserindo, pesquisando, alterando e apagando contatos da agenda.
 
 ## Atividade 2 - infoX
-Execute os passos 3 e 4 do projeto infox.
+Execute os passos 1 e 2 do projeto infox.
 
 [infox](https://github.com/professorjosedeassis/mysql/blob/master/infox/projeto.md)
