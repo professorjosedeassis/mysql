@@ -1,4 +1,4 @@
-# Aula 1 - Introdução
+# Introdução
 [![Introdução ao banco de dados](https://github.com/professorjosedeassis/mysql/blob/master/imagens/intro_banco.png)](https://www.slideshare.net/josedeassisfilho/banco-de-dados-231067009 "Assistir apresentação")
 ## Atividade 1 - Instalação do MySQL
 O principal objetivo é criar um servidor de banco de dados e usar o Workbench como ferramenta de administração e desenvolvimento.
@@ -9,13 +9,13 @@ Instalação do MySQL no Windows (ambiente de desenvolvimento)
 
 ![YouTube Video Views](https://img.shields.io/youtube/views/iYN9a3i2qkQ?style=social)
 ### Opção 2
-Instalação do MySQL no Linux com perfil de servidor dedicado a uma rede local (ideal para sistemas comerciais de lojas, restaurantes, oficinas etc.)
+Instalação do MySQL no Linux com perfil de servidor dedicado a uma rede local (ideal para sistemas comerciais de lojas, restaurantes, assistências técnicas, oficinas mecânicas etc.)
 
 [![Linux Database Server](http://img.youtube.com/vi/E6Hf5rQajtw/0.jpg)](http://www.youtube.com/watch?v=E6Hf5rQajtw "Assistir no YouTube")
 
 ![YouTube Video Views](https://img.shields.io/youtube/views/E6Hf5rQajtw?style=social)
 ### Opção 3
-Instalação do MySQL no Linux com perfil de servidor WEB dinâmico (ideal para o desenvolvimento de um sistema WEB com a linguagem Java).
+Instalação do MySQL no Linux com perfil de servidor WEB dinâmico (ideal para o desenvolvimento de um sistema WEB com back-end usando a linguagem Java).
 
 [![Linux Database Server](http://img.youtube.com/vi/nuRy0omG06o/0.jpg)](http://www.youtube.com/watch?v=nuRy0omG06o "Assistir no YouTube")
 
