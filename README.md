@@ -1,10 +1,12 @@
 ![GitHub](https://img.shields.io/github/license/professorjosedeassis/mysql)
-![GitHub last commit](https://img.shields.io/github/last-commit/professorjosedeassis/mysql)
-![Twitter Follow](https://img.shields.io/twitter/follow/joseassis?style=social)
-# MySQL
+
+# MySQL tutorial
 ![mysql](https://github.com/professorjosedeassis/mysql/blob/master/imagens/mysql.png)
-## Fundamentos do banco de dados MySQL
+
 Aqui você encontra tutoriais e projetos para poder dar os primeiros passos com o banco de dados MySQL de forma simples e prática.
+### Autor
+Professor José de Assis
+
 #### Conteúdo deste repositório:
 * Tutorial de instalação do MySQL no Windows (perfil de desenvolvimento)
 * Tutorial de instalação do MySQL em um servidor Linux dedicado a uma rede local (ideal para sistemas comerciais de lojas, restaurantes, oficinas etc.)
@@ -12,5 +14,6 @@ Aqui você encontra tutoriais e projetos para poder dar os primeiros passos com 
 * Tutorial de introdução à modelagem de dados
 * Tutorial de introdução à linguagem SQL
 * Projeto: Agenda de contatos
-* Projeto: Sistema para controle de ordem de serviços (sistema desktop)
-* projeto: Sistema para gerenciamento de cursos online (back-end)(em produção...)
+* Projeto: Sistema para controle de ordem de serviços 
+* projeto: Sistema para gerenciamento de cursos online
+* projeto: E-commerce
