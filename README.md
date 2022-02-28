@@ -18,13 +18,13 @@ Professor José de Assis
 * projeto: E-commerce
 
 ### Aula 1
-[Iniciar](https://github.com/professorjosedeassis/mysql/tree/master/aula1)
+[Iniciar >>](https://github.com/professorjosedeassis/mysql/tree/master/aula1)
 ### Aula 2
-[Iniciar](https://github.com/professorjosedeassis/mysql/tree/master/aula2)
+[Iniciar >>](https://github.com/professorjosedeassis/mysql/tree/master/aula2)
 ### Aula 3
-[Iniciar](https://github.com/professorjosedeassis/mysql/tree/master/aula3)
+[Iniciar >>](https://github.com/professorjosedeassis/mysql/tree/master/aula3)
 ### Aula 4
-[Iniciar](https://github.com/professorjosedeassis/mysql/tree/master/aula4)
+[Iniciar >>](https://github.com/professorjosedeassis/mysql/tree/master/aula4)
 ## Como apoiar os cursos gratuitos e projetos?
 Você pode:
 - Inscrever-se no canal do YouTube - [INSCREVA-SE!](https://www.youtube.com/c/RoboticapraticaBr/?sub_confirmation=1)
