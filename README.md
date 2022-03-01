@@ -2,7 +2,7 @@
 
 ![mysql](https://github.com/professorjosedeassis/mysql/blob/master/imagens/mysql.png)
 # MySQL tutorial
-Aqui você encontra tutoriais e projetos para poder dar os primeiros passos com o banco de dados MySQL de forma simples e prática.
+Aprenda a trabalhar com o banco de dados MySQL desenvolvendo projetos.
 ### Autor
 Professor José de Assis
 
