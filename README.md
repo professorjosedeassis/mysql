@@ -2,7 +2,7 @@
 
 ![mysql](https://github.com/professorjosedeassis/mysql/blob/master/imagens/mysql.png)
 # MySQL tutorial
-Aprenda a trabalhar com o banco de dados MySQL desenvolvendo projetos.
+Aprenda a trabalhar com o banco de dados MySQL desenvolvendo projetos com foco no mercado de trabalho.
 ### Autor
 Professor José de Assis
 
