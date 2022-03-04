@@ -1,0 +1,22 @@
+Resumo da instalação do MySQL no Linux (distribuição Debian)
+
+apt-get install gnupg
+
+mysql.com -> Downloads (obter o link do repositório apt)
+wget "link do repositório"
+dpkg -i "pacote"
+apt update
+apt install mysql-server
+systemctl status mysql
+mysql -V
+mysql_secure_installation
+
+mysql -u root -p
+create user 'dba'@'%' identified by 'Dba@123456';
+grant all privileges on *.* to 'dba'@'%';
+flush privileges;
+select user,host from mysql.user;
+<ctrl><L>
+<ctrl><D>
+
+#Instalar o workbench no cliente
