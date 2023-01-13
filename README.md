@@ -25,7 +25,7 @@ Professor José de Assis
 [Iniciar >>](https://github.com/professorjosedeassis/mysql/tree/master/aula3)
 ### Aula 4
 [Iniciar >>](https://github.com/professorjosedeassis/mysql/tree/master/aula4)
-## Como apoiar os cursos gratuitos e projetos?
+## Como apoiar os tutoriais e projetos?
 ### Você pode:
 :heavy_check_mark: Inscrever-se no canal do YouTube - [INSCREVA-SE!](https://www.youtube.com/c/RoboticapraticaBr/?sub_confirmation=1)
 
