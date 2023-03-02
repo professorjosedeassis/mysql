@@ -1,5 +1,5 @@
 # Introdução
-[![Introdução ao banco de dados](https://github.com/professorjosedeassis/mysql/blob/master/imagens/intro_banco.png)](https://www.slideshare.net/josedeassisfilho/banco-de-dados-231067009 "Assistir apresentação")
+[![Introdução ao banco de dados](https://github.com/professorjosedeassis/mysql/blob/master/imagens/intro_banco.png)](https://professorjosedeassis.github.io/mysql/ "Assistir apresentação")
 ## Atividade 1 - Instalação do MySQL
 O principal objetivo é criar um servidor de banco de dados e usar o Workbench como ferramenta de administração e desenvolvimento.
 ### Opção 1
