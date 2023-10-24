@@ -1,7 +1,7 @@
 ![GitHub](https://img.shields.io/github/license/professorjosedeassis/mysql)
 
 ![mysql](https://github.com/professorjosedeassis/mysql/blob/master/imagens/mysql.png)
-# MySQL tutorial
+# MySQL Tutorial
 Aprenda a trabalhar com o banco de dados MySQL desenvolvendo projetos com foco no mercado de trabalho.
 ### Autor
 Professor José de Assis
@@ -14,8 +14,8 @@ Professor José de Assis
 * Tutorial de introdução à linguagem SQL
 * Projeto: Agenda de contatos
 * Projeto: Sistema para controle de ordem de serviços 
-* projeto: Sistema para gerenciamento de cursos online
-* projeto: E-commerce
+* Projeto: Sistema para gerenciamento de cursos online
+* Projeto: E-commerce
 
 ### Aula 1
 [Iniciar >>](https://github.com/professorjosedeassis/mysql/tree/master/aula1)
@@ -33,11 +33,11 @@ Professor José de Assis
 
 :heavy_check_mark: Seguir-me nas redes sociais:
 <p align="left">
-<a href="https://www.youtube.com/c/roboticapraticabr" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="roboticapraticabr" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/professorjosedeassis" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="professorjosedeassis" height="30" width="40" /></a>
-<a href="https://fb.com/professorjosedeassis" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="professorjosedeassis" height="30" width="40" /></a>
-<a href="https://instagram.com/prof.joseassis" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="prof.joseassis" height="30" width="40" /></a>
-<a href="https://twitter.com/joseassis" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="joseassis" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/roboticapraticabr" target="blank"><img align="center" src="https://github.com/professorjosedeassis/joseassis/blob/main/img/youtube.png" alt="roboticapraticabr" height="48" width="48" /></a>
+<a href="https://linkedin.com/in/professorjosedeassis" target="blank"><img align="center" src="https://github.com/professorjosedeassis/joseassis/blob/main/img/linkedin.png" alt="professorjosedeassis" height="48" width="48" /></a>
+<a href="https://fb.com/professorjosedeassis" target="blank"><img align="center" src="https://github.com/professorjosedeassis/joseassis/blob/main/img/facebook.png" alt="professorjosedeassis" height="48" width="48" /></a>
+<a href="https://instagram.com/prof.joseassis" target="blank"><img align="center" src="https://github.com/professorjosedeassis/joseassis/blob/main/img/instagram.png" alt="prof.joseassis" height="48" width="48" /></a>
+<a href="https://twitter.com/joseassis" target="blank"><img align="center" src="https://github.com/professorjosedeassis/joseassis/blob/main/img/twitter.png" alt="joseassis" height="48" width="48" /></a>
 </p>
 
 ### Você também pode me pagar um café! ☕
