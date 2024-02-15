@@ -24,5 +24,11 @@ Instalação do MySQL no Linux com perfil de servidor WEB dinâmico (ideal para 
 ![YouTube Video Views](https://img.shields.io/youtube/views/nuRy0omG06o?style=social)
 #### Playlist
 [Iniciar tutorial](https://www.youtube.com/playlist?list=PLbEOwbQR9lqyGUhHQHEBXxeBbE1jq8r_c)
+### Opção 4
+Instalação do MySQL na nuvem (GRÁTIS)
+#### Videoaula
+[![MySQL Windows](http://img.youtube.com/vi/yIIcnB-Sglc/0.jpg)](http://www.youtube.com/watch?v=yIIcnB-Sglc "Assistir no YouTube")
+
+![YouTube Video Views](https://img.shields.io/youtube/views/yIIcnB-Sglc?style=social)
 ## Atividade 2 - Criar um banco de dados
 Analise o '_script1.sql_' desta aula e use a ferramenta Workbench para criar um banco de dados de nome dbagenda.
