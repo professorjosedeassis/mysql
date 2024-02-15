@@ -25,7 +25,7 @@ Instalação do MySQL no Linux com perfil de servidor WEB dinâmico (ideal para 
 #### Playlist
 [Iniciar tutorial](https://www.youtube.com/playlist?list=PLbEOwbQR9lqyGUhHQHEBXxeBbE1jq8r_c)
 ### Opção 4
-Instalação do MySQL na nuvem (GRÁTIS)
+Uso do MySQL na nuvem (GRÁTIS)
 #### Videoaula
 [![MySQL Windows](http://img.youtube.com/vi/yIIcnB-Sglc/0.jpg)](http://www.youtube.com/watch?v=yIIcnB-Sglc "Assistir no YouTube")
 
